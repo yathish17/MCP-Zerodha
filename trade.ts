@@ -14,7 +14,7 @@ export const loginUrl = kc.getLoginURL();
 export async function placeOrder(tradingsymbol: string, quantity: number, type: "BUY" | "SELL") {
   try {
     kc.setAccessToken(access_token);
-    await kc.placeOrder("regular",{
+    await kc.placeOrder("amo",{
       exchange: "NSE",
       tradingsymbol,
       transaction_type: type,
