@@ -1,6 +1,6 @@
 import { generateAccessToken } from './trade';
 
-const requestToken = "VzzYZRcWKnyG90lNB1on6ku26KtrWZVR";
+const token ="";
 
 generateAccessToken(requestToken)
   .then(accessToken => {
